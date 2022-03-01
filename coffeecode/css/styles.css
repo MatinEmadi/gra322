@@ -1,0 +1,32 @@
+.container {
+  font-family: 'Manrope', sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+nav ul {
+    font-size: 14px;
+    display: flex;
+  } 
+  li {
+    list-style-type: none;
+     } 
+  .cafetitle {
+    margin-left: auto;
+  }
+
+.hero {
+  background-image: url("img/coffee.jpg");
+  min-width: 600px;
+  position: relative;
+  color: white;
+}
+
+.herotext {
+  position: absolute;
+  top: 17rem;
+  line-height: 2rem;
+  margin-left: 4rem;
+  font-size: 1.5rem;
+}
+
