@@ -2,31 +2,143 @@
   font-family: 'Manrope', sans-serif;
   max-width: 1280px;
   margin: 0 auto;
+  padding: 1.5em;
 }
 
 nav ul {
-    font-size: 14px;
     display: flex;
+    font-size: 14px;
   } 
   li {
     list-style-type: none;
+    padding: 1em;
      } 
   .cafetitle {
     margin-left: auto;
   }
 
+ /* image shit */
 .hero {
-  background-image: url("img/coffee.jpg");
-  min-width: 600px;
-  position: relative;
-  color: white;
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
-.herotext {
-  position: absolute;
-  top: 17rem;
-  line-height: 2rem;
-  margin-left: 4rem;
-  font-size: 1.5rem;
+ /* charlie title */
+    .top-left {
+        position: absolute;
+        font-size: 40px;
+        top: 20rem;
+        left: 7rem;
+        color: white;
+    }
+    
+ /* menu button */
+    .read-more {
+        position: absolute;
+        font-size: 10px;
+        top: 28rem;
+        left: 7rem;
+        border-color: white;
+        background: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 1rem;
+
+    }
+ /* established since 1990 */
+    .established {
+        position: absolute;
+        font-size: 30px;
+        top: 18rem;
+        left: 7rem;
+        color: white;
+    }
+
+    .quote {
+        text-align: center;
+        padding: 1.5em;
+    }
+
+
+
+
+
+
+
+
+
+
+.menu {
+  font-size: 14px;
+}
+
+.menu-group-heading {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+.menu-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.menu-item {
+  display: flex;
+}
+
+.menu-item-image {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+}
+
+.menu-item-text {
+  flex-grow: 1;
+}
+
+.menu-item-heading {
+  display: flex;
+  justify-content: Space-between;
+  margin: 0;
+}
+.menu-item-name {
+  margin-right: 1.5em;
+}
+
+.menu-item-description {
+  line-height: 1.6;
+}
+@media screen and (min-width: 992px) {
+  .menu {
+    font-size: 16px;
+  }
+  
+  .menu-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .menu-item-image {
+  width: 125px;
+  height: 125px;
+  }
+  nav ul {
+    display: flex;
+    font-size: 16px;
+  } 
+     .top-left {
+        position: absolute;
+        font-size: 80px;
+     }
+      /* menu button */
+    .read-more {
+      font-size: 20px;
+    }
 }
 
