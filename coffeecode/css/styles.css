@@ -25,16 +25,17 @@ nav ul {
  /* image shit */
 header {
   color: white;
-  background-image: url(../img/coffee.jpg);
+  background-image: url(../img/shop.jpg);
   background-position: center center;
   background-size: cover;
   height: 80vh;
 }
 
-      .hero {
-        padding: 20% 5% 5% 10%;
-        /* top, right, bottom, left - 40%, 5%, 10%, 10%;*/
-      }
+    .hero {
+         text-align: center;
+         padding: 12% 10%;   
+    }
+      
 
               .hero-subtitle {
                 font-size: clamp(8px, 2vw, 24px);
@@ -42,6 +43,7 @@ header {
 
               .hero-title {
                 font-size: clamp(32px, 8vw, 96px);
+                font-weight: normal;
               }
 
               button {
@@ -52,9 +54,15 @@ header {
                 cursor: pointer;
                 border-radius: 10px;
                 padding: 1rem;
+                border-width: .25em;
+                border-style: solid;
               }
 
-
+              .quote {
+                text-align: center;
+                line-height:2.5em;
+                padding: 2rem;
+              }
 
 
 
