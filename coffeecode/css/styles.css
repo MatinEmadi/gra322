@@ -5,74 +5,68 @@ body {
 .container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 1.5em;
+  padding: 1rem;
 }
 
 nav ul {
     display: flex;
-    font-size: 14px;
+    font-size: clamp(8px, 2vw, 24px);
+    padding: 0;
+    
   } 
-  li {
-    list-style-type: none;
-    padding: 1em;
-     } 
-  .cafetitle {
-    margin-left: auto;
-  }
+              li {
+                list-style-type: none;
+                padding: 1em;
+                } 
+              .cafetitle {
+                margin-left: auto;
+              }
 
  /* image shit */
-.hero {
-    position: relative;
-    font-size: 5vw;
-    text-align: center;
-    color: rgb(255, 255, 255);
+header {
+  color: white;
+  background-image: url(../img/coffee.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 80vh;
 }
 
- /* charlie title */
-    .top-left {
-        position: absolute;
-        font-size: 40px;
-        top: 20rem;
-        left: 7rem;
-        color: white;
-    }
+      .hero {
+        padding: 20% 5% 5% 10%;
+        /* top, right, bottom, left - 40%, 5%, 10%, 10%;*/
+      }
+
+              .hero-subtitle {
+                font-size: clamp(8px, 2vw, 24px);
+              }
+
+              .hero-title {
+                font-size: clamp(32px, 8vw, 96px);
+              }
+
+              button {
+                font-size: clamp(8px, 2vw, 24px);
+                border-color: white;
+                background: none;
+                color: white;
+                cursor: pointer;
+                border-radius: 10px;
+                padding: 1rem;
+              }
+
+
+
+
+
+
+
+
     
- /* menu button */
-    .read-more {
-        position: absolute;
-        font-size: 10px;
-        top: 28rem;
-        left: 7rem;
-        border-color: white;
-        background: none;
-        color: white;
-        cursor: pointer;
-        border-radius: 10px;
-        padding: 1rem;
+ 
+ 
+ 
 
-    }
- /* established since 1990 */
-    .established {
-        position: absolute;
-        font-size: 30px;
-        top: 18rem;
-        left: 7rem;
-        color: white;
-    }
-
-    .quote {
-        text-align: center;
-        padding: 1.5em;
-    }
-
-
-
-
-
-
-
-
-
+  /* w3 school*/
 
 .menu {
   font-size: 14px;
