@@ -63,11 +63,15 @@ header {
                 padding: 2rem;
               }
 
+.coffeelist {
+  line-height: 3em;
+}
 
 
 
-
-
+.grayline {
+  color: #ccc;
+}
     
  
  
@@ -155,9 +159,7 @@ header {
 
 
 
-.coffeelist {
-  font-size: 1.17em;
-}
+
 
 .right {
   float: right;
