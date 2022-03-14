@@ -171,10 +171,21 @@ footer {
   color: white;
 }
 
- .about {
-   
-  float: left;
-  width: 50%;
-  padding: 10px;
- }
+.footergrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .footergrid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+
 
