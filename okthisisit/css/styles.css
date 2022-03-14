@@ -1,0 +1,121 @@
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    font-size: clamp(8px, 2vw, 24px);
+    padding: 0;    
+  } 
+
+li {
+  list-style-type: none;
+  padding: 1rem;
+  } 
+
+.cafetitle {
+  margin-left: auto;
+}
+
+ /* image shit */
+header {
+  color: white;
+  background-image: url(../img/shop.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 80vh;
+}
+
+    .hero {
+         text-align: center;
+         padding: 12% 10%;   
+    }
+      
+
+              .hero-subtitle {
+                font-size: clamp(8px, 2vw, 24px);
+              }
+
+              .hero-title {
+                font-size: clamp(32px, 8vw, 96px);
+                font-weight: normal;
+              }
+
+              button {
+                font-size: clamp(8px, 2vw, 24px);
+              
+                background-color: black;
+                color: white;
+                cursor: pointer;
+                padding: .5rem 1rem;
+           
+           
+              }
+
+              .quote {
+                text-align: center;
+                line-height:2.5em;
+                padding: 2rem;
+              }
+
+.coffeelist {
+  line-height: 3em;
+}
+
+
+
+.grayline {
+  color: #ccc;
+}
+    
+ 
+ 
+ 
+
+  /* w3 school*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* footer */
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footergrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .footergrid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+
+
