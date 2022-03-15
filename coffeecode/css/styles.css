@@ -120,8 +120,9 @@ footer {
   padding-bottom: 1rem;
 }
 
-.fa-twitter {
-  color: yellow;
+.logo {
+  color: white;
+  display: flex;
 }
 
 @media screen and (max-width: 800px) {
@@ -145,6 +146,7 @@ footer {
     grid-template-columns: 1fr;
     font-size: 16px;
     padding: 1rem;
+    margin-left: 1rem;
   }
 
 }
