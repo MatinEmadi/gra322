@@ -120,6 +120,9 @@ footer {
   padding-bottom: 1rem;
 }
 
+.fa-twitter {
+  color: yellow;
+}
 
 @media screen and (max-width: 800px) {
   .about, .contact, .location {
