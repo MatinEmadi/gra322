@@ -9,12 +9,12 @@ body {
  /* nav */
 nav ul {
   display: flex;
-  font-size: 24px; 
+  font-size: 20px; 
   } 
 
 li {
   list-style-type: none;
-  padding: 1rem;
+  padding: 1em;
   } 
 
 .cafetitle {
@@ -27,17 +27,17 @@ header {
   background-image: url(../img/shop.jpg);
   background-position: center center;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
 }
 
 /* header */
 .hero {
   text-align: center;
-  padding: 12% 10%;   
+  padding: 15% 10%;   
 }     
 
 .hero-subtitle {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .hero-title {
@@ -46,57 +46,113 @@ header {
 }
 
 button {
-  font-size: 24px;
+  font-size: 20px;
   background-color: black;
   color: white;
   cursor: pointer;
   padding: .5rem 1rem;
 }
 
+.quoteheading {
+  font-size: 40px;
+}
+
 .quote {
+  font-size: 20px;
   text-align: center;
   line-height:2.5em;
-  padding: 2rem;
+  margin-top: 4rem;
 }
 
 
 /* menu */
+.menu-heading {
+  margin: 0;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ccc;
+  font-size: 25px;
+  margin-top: 1rem;
+}
 
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  align-items: baseline;
+  grid-column-gap: 40px;
+  grid-row-gap: 30px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+}
 
 table {
-  width: 50%;
-  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 20px;
 }
 
 th {
-  display: flex;
+  text-align: left;
+  max-width: 40px;
 }
 
 td {
-  line-height: 1.5em;
+  line-height: 2.5em;
+  max-width: 10px;
 }
-
-
-
- 
- 
 
 
 
  /*
 
-display: grid;
-grid-template-columns: 2fr 1fr 1fr;
-max-width: 1280px;
-margin: 0 auto;
-gap: 1rem;
+.menu-group-heading {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
 
+.menu-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
 
-*/
+.menu-item {
+  display: flex;
+}
+
+.menu-item-image {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+}
+
+.menu-item-text {
+  flex-grow: 1;
+}
+
+.menu-item-heading {
+  display: flex;
+  justify-content: Space-between;
+  margin: 0;
+}
+.menu-item-name {
+  margin-right: 1.5em;
+}
+
+.menu-item-description {
+  line-height: 1.6em;
+}
+
+/*      
 
 
 
  /* footer */
+
 footer {
   background-color: black;
   color: white;
@@ -110,11 +166,22 @@ footer {
   gap: 1rem;
 }
 
-@media screen and (max-width: 800px) {
-  .footergrid {
-    grid-template-columns: 1fr;
+@media screen and (max-width: 400px) {
+  nav ul {
+    font-size: 12px;
   }
 
+  .menu-heading {
+    padding: 1rem;
+    font-size: 18px;
+    padding: 1rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+    font-size: 16px;
+    padding: 1rem;
+  }
 }
 
 
