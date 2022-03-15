@@ -122,8 +122,8 @@ footer {
 
 
 @media screen and (max-width: 800px) {
-  body {
-
+  .about, .contact, .location {
+    padding: 1rem;
   }
 }
 
