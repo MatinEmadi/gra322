@@ -33,21 +33,21 @@ header {
 /* header */
 .hero {
   text-align: center;
-  padding: 15% 10%;   
+  padding-top: 13rem;   
 }     
 
 .hero-subtitle {
-  font-size: clamp(18px, 3vw, 24px);
+  font-size: 24px;
 }
 
 .hero-title {
-  font-size: clamp(30px, 5vw, 96px);
+  font-size: 96px;
   font-weight: normal;
 }
 
 button {
   margin: .75rem;
-  font-size: clamp(10px, 5vw, 20px);
+  font-size: 20px;
   background-color: black;
   color: white;
   cursor: pointer;
@@ -55,14 +55,14 @@ button {
 }
 
 .quoteheading {
-  font-size: 2.5rem;
+  font-size: 25px;
+  padding-bottom: 1rem;
 }
 
 .quote {
-  font-size: 1.625rem;
+  font-size: 20px;
   text-align: center;
-  line-height:2.5em;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 
@@ -137,6 +137,16 @@ footer {
     padding: 1rem;
   }
 
+  .quoteheading {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .quote {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .menu-heading {
     padding: 1rem;
     margin-left: 1rem;
@@ -146,11 +156,33 @@ footer {
     padding: 1rem;
     margin-left: 1rem;
   }
+  
 }
 
 @media screen and (max-width: 400px) {
   nav ul {
     font-size: 12px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    font-weight: normal;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .quoteheading {
+    font-size: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .quote {
+    font-size: 16px;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .menu-heading {
@@ -169,6 +201,8 @@ footer {
 
   .footergrid {
     grid-template-columns: 1fr;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
 }
