@@ -55,11 +55,11 @@ button {
 }
 
 .quoteheading {
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 .quote {
-  font-size: 20px;
+  font-size: 1.625rem;
   text-align: center;
   line-height:2.5em;
   margin-top: 4rem;
@@ -120,14 +120,31 @@ footer {
   padding-bottom: 1rem;
 }
 
+.aboutheading, .contactheading, .locationheading {
+  font-size: 25px;
+
+}
+
 .logo {
   color: white;
   display: flex;
+  gap: 1rem;
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 800px) {
   .about, .contact, .location {
     padding: 1rem;
+  }
+
+  .menu-heading {
+    padding: 1rem;
+    margin-left: 1rem;
+  }
+
+  .menu-grid {
+    padding: 1rem;
+    margin-left: 1rem;
   }
 }
 
@@ -138,8 +155,9 @@ footer {
 
   .menu-heading {
     padding: 1rem;
-    font-size: 18px;
+    font-size: 20px;
     padding: 1rem;
+    margin-left: 1rem;
   }
 
   .menu-grid {
@@ -149,8 +167,10 @@ footer {
     margin-left: 1rem;
   }
 
+  .footergrid {
+    grid-template-columns: 1fr;
+  }
+
 }
-
-
 
 
