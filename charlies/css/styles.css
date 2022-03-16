@@ -10,11 +10,15 @@ body {
 nav ul {
   display: flex;
   font-size: 20px; 
+  gap: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   } 
+
 
 li {
   list-style-type: none;
-  padding: 1em;
+ 
   } 
 
 .cafetitle {
@@ -211,6 +215,18 @@ footer {
     margin-right: 1rem;
   }
 
-}
+  .mobilewrap {
+    width: 100%;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .cafetitle {
+    margin-left: 0;
+  }
+}  
 
 
