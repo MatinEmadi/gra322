@@ -1,0 +1,52 @@
+body {
+  font-family: 'HelveticaNeue', sans-serif;
+  max-width: 470px;
+  margin: 2rem;
+}
+
+
+
+.title {
+  padding: 10rem;
+}
+
+logo {
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.links {
+  list-style: none;
+  
+}
+
+.bow {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  height: 4rem;
+  width: 4rem;
+ ;
+}
+
+.imagegrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  max-width: 470px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  line-height: 2rem;
+}
+
+h3 {
+  line-height: 2rem;
+}
