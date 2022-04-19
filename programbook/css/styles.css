@@ -1,14 +1,12 @@
 body {
   font-family: 'HelveticaNeue', sans-serif;
-  max-width: 470px;
-  margin: 2rem;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
 }
 
 
 
-.title {
-  padding: 1rem;
-}
 
 logo {
   color: black;
@@ -37,8 +35,7 @@ header {
 .imagegrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  max-width: 470px;
+  gap: 2%;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -49,4 +46,8 @@ h1 {
 
 h3 {
   line-height: 2rem;
+}
+
+.project {
+  margin-top: 5%;
 }
