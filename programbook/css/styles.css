@@ -1,15 +1,15 @@
+* {
+  background-color: grey;
+}
 body {
-  font-family: 'HelveticaNeue', sans-serif;
-  margin-right: 10%;
-  margin-left: 10%;
+ 
+  margin-right: 5%;
+  margin-left: 5%;
   margin-top: 5%;
 }
 
-
-
-
-logo {
-  color: black;
+.links {
+  list-style: none;
 }
 
 header {
@@ -18,10 +18,13 @@ header {
   margin-bottom: 1rem;
 }
 
-.links {
-  list-style: none;
-  
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 50px;
 }
+
 
 .bow {
   border: none;
@@ -29,25 +32,5 @@ header {
   cursor: pointer;
   height: 4rem;
   width: 4rem;
- ;
 }
 
-.imagegrid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-h1 {
-  line-height: 2rem;
-}
-
-h3 {
-  line-height: 2rem;
-}
-
-.project {
-  margin-top: 5%;
-}
