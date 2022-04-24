@@ -1,13 +1,13 @@
 * {
-  background-color: black;
   color: white;
-  font-family: "Unica77", "Helvetica Neue", Arial, sans-serif; 
+  font-family: "Unica77", "Helvetica Neue", Arial, sans-serif;
 }
+
 body {
- 
   margin-right: 5%;
   margin-left: 5%;
   margin-top: 3%;
+  background-color: black;
 }
 
 .links {
@@ -33,26 +33,13 @@ a {
   font-weight: 300;
   font-size: 50px;
   text-decoration: none;
+  color: white;
 }
 
-a:after {
-  content: "";
-  display: block;
-}
 
 a:hover {
   color: red;
-  background-image: url(../img/mlk.png);
-  background-position: center center;
-  background-size: cover;
-  height: 100vh;
-  display: block;
-  z-index: -1;
 }
-
-
-
-
 
 .bow {
   border: none;
@@ -62,22 +49,35 @@ a:hover {
   width: 4rem;
 }
 
-h3 {
-  font-weight: 300;
-  font-size: 20px;
-}
-/* MLK PAGE*/
-.process {
-  margin-top: 3vw;
+
+
+
+
+.project-test {
+  color: white;
 }
 
-.imagegrid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2vw;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+.project-test img{
+    display: none
 }
 
+.project-test span {
+  color: white;
+}
+
+.project-test span:hover {
+  color: white;
+}
+
+.project-test span:hover + img{
+  width: 100%;
+  display: block;
+  opacity: .7;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+  z-index: -1;
+}
 
 
