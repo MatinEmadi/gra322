@@ -1,6 +1,10 @@
+
+
+
 * {
   color: white;
   font-family: "Unica77", "Helvetica Neue", Arial, sans-serif;
+  
 }
 
 body {
@@ -20,6 +24,11 @@ header {
   margin-bottom: 1rem;
 }
 
+.textbottom {
+  position: bottom;
+}
+
+
 hr {
   border-color: red;
 }
@@ -30,31 +39,68 @@ h1 {
 }
 
 a {
-  font-weight: 300;
-  font-size: 50px;
   text-decoration: none;
   color: white;
 }
 
+p {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.imagegrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 3rem;
+  background-color: rgb(255, 255, 255);
+}
+
+/* dropdown */
+
+.dropdown {
+  float: right;
+  margin-right: 6rem;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.button {
+  color: WHITE;
+  padding: 16px;
+  border: none;
+  background-color: transparent;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  z-index: 1;
+  
+}
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+/* overlay */
 
 a:hover {
   color: red;
 }
 
-.bow {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  height: 4rem;
-  width: 4rem;
-}
-
-
-
-
-
 .project-test {
   color: white;
+  font-weight: 300;
+  font-size: 50px;
 }
 
 .project-test img{
