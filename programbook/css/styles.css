@@ -24,10 +24,6 @@ header {
   margin-bottom: 1rem;
 }
 
-.textbottom {
-  position: bottom;
-}
-
 
 hr {
   border-color: red;
@@ -166,3 +162,11 @@ a.list:hover {
 }
 
 
+
+@media only screen and (max-width: 500px) {
+  .imagegrid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
