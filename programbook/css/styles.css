@@ -33,6 +33,13 @@ hr {
   border-color: red;
 }
 
+h3 {
+  font-weight: 400;
+  font-size: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
 h1 {
   font-weight: 300;
   font-size: 20px;
@@ -46,6 +53,8 @@ a {
 p {
   font-weight: 300;
   font-size: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 
 .imagegrid1 {
@@ -82,14 +91,13 @@ p {
 
 .dropdown {
   float: right;
-  margin-right: 6rem;
-  font-size: 20px;
+  font-size: 2vw;
   font-weight: 300;
 }
 
 .button {
   color: WHITE;
-  padding: 16px;
+  margin-bottom: 16px;
   border: none;
   background-color: transparent;
 }
@@ -111,9 +119,15 @@ p {
 .dropdown:hover .dropdown-content {display: block;}
 
 
+a.programnav {
+  font-weight: 300;
+  font-size: 2vw;
+  margin-bottom: 1vw;
+} 
+
 /* overlay */
 
-a:hover {
+a.list:hover {
   color: red;
 }
 
