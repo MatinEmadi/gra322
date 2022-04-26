@@ -48,14 +48,34 @@ p {
   font-size: 20px;
 }
 
-.imagegrid {
+.imagegrid1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 3rem;
+  background-color: #36363647;
+}
+
+.imagegrid2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 3rem;
-  background-color: rgb(255, 255, 255);
+  background-color: #36363647;
+}
+
+.exsnoregrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 3rem;
+  background-color: #36363647;
 }
 
 /* dropdown */
