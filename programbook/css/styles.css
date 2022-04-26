@@ -45,7 +45,7 @@ a {
 
 p {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 .imagegrid1 {
@@ -117,10 +117,15 @@ a:hover {
   color: red;
 }
 
+
+.projectlist {
+  line-height: 12vw;
+}
+
 .project-test {
   color: white;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 10vw;
 }
 
 .project-test img{
