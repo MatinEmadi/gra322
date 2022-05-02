@@ -59,8 +59,7 @@ p {
   gap: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 3rem;
-  background-color: #36363647;
+
 }
 
 .imagegrid2 {
@@ -69,8 +68,7 @@ p {
   gap: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 3rem;
-  background-color: #36363647;
+
 }
 
 .exsnoregrid {
@@ -79,8 +77,11 @@ p {
   gap: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 3rem;
-  background-color: #36363647;
+
+}
+
+.footer {
+  line-height: 1vw;
 }
 
 /* dropdown */
